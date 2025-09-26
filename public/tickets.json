@@ -88,23 +88,5 @@
     "priority": "Medium Priority",
     "status": "Open",
     "createdAt": "1/24/2024"
-  },
-  {
-    "id": "1011",
-    "title": "Order not delivered",
-    "description": "Customer reports delay in delivery beyond expected date.",
-    "customer": "Anisur Rahman",
-    "priority": "High",
-    "status": "Open",
-    "createdAt": "1/25/2024"
-  },
-  {
-    "id": "1012",
-    "title": "App performance slow",
-    "description": "Customer reports lag while navigating app.",
-    "customer": "Tanjina Akter",
-    "priority": "Medium",
-    "status": "In Progress",
-    "createdAt": "1/26/2024"
   }
 ]

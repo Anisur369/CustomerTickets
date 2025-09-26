@@ -36,10 +36,10 @@ export default function Tickets({handlerIncrement, handlerDecrement, tasks, reso
 
 
   return (
-    <div className="bg-gray-100">
-      <div className="w-full sm:w-[1260px] mx-auto p-2 flex flex-col-reverse sm:flex-row sm:justify-between gap-4">
+    <div className="bg-[#f5f5f5]">
+      <div className="w-full sm:w-[1260px] mx-auto p-2 pb-5 sm:pb-20 flex flex-col-reverse sm:flex-row sm:justify-between gap-4">
         <div>
-          <h2 className="text-4xl font-bold">Customer Tickets</h2>
+          <h2 className="text-4xl font-bold mb-4">Customer Tickets</h2>
           <Cards ticketsData={allTickets} handlerIncrement={handlerIncrement} />
         </div>
 
@@ -67,7 +67,7 @@ export default function Tickets({handlerIncrement, handlerDecrement, tasks, reso
                   <h3 className="text-lg font-semibold mb-2">{task}</h3>
                   <div className="flex justify-between items-center">
                     <p><i className="fa-solid fa-check"></i> Completed</p>
-                    <button onClick={()=>resolvedDecrement(task, index)} className="btn btn-primary bg-red-600 rounded-lg border-0">Delete</button>
+                    <button onClick={()=>resolvedDecrement(task, index)} className="btn btn-sm bg-red-600 rounded-lg border-0 font-bold">Delete</button>
                   </div>
                 </div>
               ))

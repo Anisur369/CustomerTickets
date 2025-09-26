@@ -11,14 +11,14 @@ export default function Card({ticket, handlerIncrement}) {
             <h2 className="card-title">{ticket.title}</h2>
 
             {ticket.status === "Open" && 
-              <div className="bg-green-200 rounded-full px-4 py-2 flex items-center justify-center">
+              <div className="bg-[#b9f8cf] text-[black] rounded-full px-4 py-2 flex items-center justify-center">
                 <span className="status bg-[red] w-3 h-3"></span>
                 <span className="text-md font-semibold ml-1">{ticket.status}</span>
               </div>
             }
 
             {ticket.status === "In Progress" && 
-              <div className="bg-yellow-200 rounded-full px-4 py-2 flex items-center justify-center">
+              <div className="text-[#bfa545] bg-[#f8f3b9] rounded-full px-4 py-2 flex items-center justify-center">
                 <div className="inline-grid *:[grid-area:1/1]">
                   <div className="status status-error animate-ping"></div>
                   <div className="status status-error  w-2 h-2"></div>
@@ -35,7 +35,7 @@ export default function Card({ticket, handlerIncrement}) {
             <div className="flex gap-2">
               <span>#{ticket.id}</span>
               {ticket.priority === "Medium Priority"?
-                <span className="text-yellow-400">{ticket.priority}</span>
+                <span className="text[#f8f3b9]">{ticket.priority}</span>
                 :
                 <span>{ticket.priority}</span>
               }              

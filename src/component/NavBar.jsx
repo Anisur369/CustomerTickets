@@ -3,7 +3,7 @@ export default function NavBar() {
     <div className="bg-base-100 shadow-sm">
       <div className="navbar w-full sm:w-[1280px] mx-auto">
         <div className="flex-1">
-          <a className="text-2xl font-bold">CS --Ticket System</a>
+          <a className="text-2xl font-bold">CS — Ticket System</a>
         </div>
         <div className="flex-none">
 
@@ -15,7 +15,7 @@ export default function NavBar() {
             </div>
             <div className="drawer-side">
               <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
-              <ul className="menu bg-base-200 text-base-content min-h-full w-70 p-4">
+              <ul className="menu bg-base-200 text-base-content min-h-full w-70 p-4 font-semibold">
                 {/* Sidebar content here */}
                 <li><a>Home</a></li>
                 <li><a>FAQ</a></li>
@@ -30,7 +30,7 @@ export default function NavBar() {
             </div>
           </div>
 
-          <ul className="hidden sm:flex menu menu-horizontal px-1 items-center">
+          <ul className="hidden sm:flex menu menu-horizontal px-1 items-center font-semibold">
             <li><a>Home</a></li>
             <li><a>FAQ</a></li>
             <li><a>Changelog</a></li>

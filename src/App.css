@@ -3,10 +3,10 @@
 
 
 .bgImageColor{
-  background-image: linear-gradient(135deg, #8200ff61, #7f00ff82, #8400ffb3);
+  background-image: linear-gradient(135deg, #632ee3, #8e54ee, #8f54ee);
 }
 .bgImageColor2{
-  background-image: linear-gradient(135deg, #38ff3161, #5bbb2482, #0faa43b3);
+  background-image: linear-gradient(135deg, #54cf68, #2caa71, #02827a);
 }
 .cardBackground {
   position: relative;
