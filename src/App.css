@@ -1,0 +1,36 @@
+@plugin "daisyui";
+@import "tailwindcss";
+
+
+.bgImageColor{
+  background-image: linear-gradient(135deg, #8200ff61, #7f00ff82, #8400ffb3);
+}
+.bgImageColor2{
+  background-image: linear-gradient(135deg, #38ff3161, #5bbb2482, #0faa43b3);
+}
+.cardBackground {
+  position: relative;
+}
+.cardBackground::before,
+.cardBackground::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.cardBackground::before {
+  left: 0;
+  background-image: url('./assets/vector1.png');
+  background-position: left bottom;
+}
+.cardBackground::after {
+  right: 0;
+  background-image: url('./assets/vector1.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  transform: scaleX(-1);
+}
