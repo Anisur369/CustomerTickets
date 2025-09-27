@@ -35,7 +35,7 @@ export default function Card({ticket, handlerIncrement}) {
             <div className="flex gap-2">
               <span>#{ticket.id}</span>
               {ticket.priority === "Medium Priority"?
-                <span className="text[#f8f3b9]">{ticket.priority}</span>
+                <span className="text-[#febb0c]">{ticket.priority}</span>
                 :
                 <span>{ticket.priority}</span>
               }              

@@ -1,3 +1,12 @@
+/*
+*Title: Customer Tickets Management
+*Description: Customer tickets management system
+*Author: Anisur Rahman 
+*Date: 27-sep-2025
+*Version: 1.0
+*Time: 05:33 AM
+*/
+
 import './App.css';
 import NavBar from './component/NavBar';
 import HeroSection from './component/HeroSection';
